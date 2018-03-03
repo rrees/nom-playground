@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Hello world - Nom Playground</title>
+        <script src="./nom.js"></script>
+    </head
+
+    <body>
+        <div id="display"></div>
+        <script>
+            const nom = window.nom;
+            console.log(nom);
+            const hello = nom.el("p", "Hello world");
+            document.getElementById("display").appendChild(hello);
+        </script>
+    </body>
+</html>
